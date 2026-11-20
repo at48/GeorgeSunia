@@ -1,0 +1,71 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    background-color: green;
+}
+.page {
+    padding: 10px
+}
+h1, h2 {
+    color: yellow;
+}
+span {
+    color: yellow;
+}
+header {
+    padding-top: 4px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    background-color: cyan;
+    color: magenta;
+}
+a {
+    color: yellow;
+}
+p, i {
+    color: white;
+    font-size: 20px;
+}
+header ul {
+    list-style: none;
+    padding: 10px;
+    background-color: magenta;
+    display: flex;
+    max-width: 400px;
+    gap: 16px;
+}
+header ul a {
+    padding: 16px
+}
+header ul a:hover {
+    background-color: cyan;
+    color: magenta;
+}
+header ul a.target:hover {
+    background-color: yellow;
+    color: magenta;
+}
+header ul .target {
+    background-color: yellow;
+    color: magenta;
+}
+main a:hover {
+    color: cyan;
+    background-color: yellow;
+}
+main {
+    padding: 50px;
+    background-color: magenta;
+}
+#timer {
+    font-size: 48px;
+    font-weight: bolder;
+}
+hr {
+    border-color: cyan;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-top: 2px solid cyan;
+}
